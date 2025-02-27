@@ -1,6 +1,30 @@
+* {
+    font-family: "DM Sans";
+    text-decoration: none;
+    background-color: #1a1a1a;
+    color: #FFFFFF;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row; 
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
 nav {
     text-align: center;
+    color: black;
 }
 h1 {
     text-align: center;
+    font-weight: 900;
+}
+#pfp {
+    width: 25%;
+    
+}
+#vis {
+    font-weight: bold;
 }
