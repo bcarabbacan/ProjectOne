@@ -9,9 +9,7 @@ body {
     font-style: normal;
     padding-left: 5%;
     padding-right: 5%;
-    /* border: 20% solid white; */
 }
-
 
 
 
@@ -44,9 +42,6 @@ text-align: center;
 p {
   color: #494D4F;
   font-size: 1.1em;
-  /* text-align: center; */
-/* margin-left: 25%;
-margin-right: 25%; */
 }
 
 article {
@@ -54,7 +49,6 @@ article {
     flex-direction: column;
     padding: 1.25%;
     text-align: left;
-
 }
 
 
@@ -64,6 +58,7 @@ li {
     font-weight: 600;
     font-size: 1.4em;
 }
+
 ol, ul {
     display: flex;
     flex-direction: column;
@@ -138,11 +133,9 @@ img {
 
 a {
     text-decoration: none;
-      /* text-transform: ; */
       font-weight: 300;
       color: #494D4F;
       padding: 10px;
-            /* background-color: red; */
 }
 
 a:hover { 
