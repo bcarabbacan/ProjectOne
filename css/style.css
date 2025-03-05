@@ -1,7 +1,6 @@
 
 
 body {
-
     text-decoration: none;
     background-color: #f0eeec;
     color: #2F3233;
@@ -10,9 +9,11 @@ body {
     font-style: normal;
     padding-left: 5%;
     padding-right: 5%;
-
     /* border: 20% solid white; */
 }
+
+
+
 a {
     text-decoration: none;
       /* text-transform: ; */
@@ -22,15 +23,13 @@ a {
             /* background-color: red; */
 }
 
-a:hover {
+a:hover { 
  color: #0047ab;
 }
-
-
 /* code from: https://www.w3schools.com/cssref/sel_hover.php */
 
-  
-  
+
+
 
 header {
 display: flex;
@@ -40,24 +39,18 @@ align-items: center;
 justify-content: start;
 padding: 10px;
 width: 100%;
-
-/* border-bottom: 1px solid #DAD4D2; */
-
-/* text-align: center; */
-
 }
 
 h1 {
-    text-align: center;
-    /* font-style: normal; */
     color: #0047ab;
-    font-size: 3em;
+    font-size: 2.9em;
+    text-align: center;
    
 }
 h2 {
   color: #2F3233;
+font-size: 1.9em;
 text-align: center;
-font-size: 2em;
 
 
 
@@ -65,29 +58,44 @@ font-size: 2em;
 
 p {
   color: #494D4F;
-  
-
+  font-size: 1.1em;
+  /* text-align: center; */
 /* margin-left: 25%;
 margin-right: 25%; */
 }
 
-li {
-    font-weight: 600;
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25%;
+    text-align: left;
+
 }
 
-#hero {
-    width: 90%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+
+
+
+li {
+    font-weight: 600;
+    font-size: 1.4em;
 }
-/* code from: https://www.w3schools.com/howto/howto_css_image_center.asp */
+ol, ul {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+
+
+
 #vis {
     font-weight: bold;
 }
 
 #logo {
-width: 50%
+width: 60%
 }
 
 /* .inspo {
@@ -99,24 +107,24 @@ flex-direction: row;
 .aboutMe {
  display: flex;
 flex-direction: row;
+align-items: center;
+align-content: center;
 }
 
 /* found solution with help from: https://codedamn.com/news/frontend/how-to-put-image-and-text-side-by-side-in-html */
 
 #pfp {
-/* aspect-ratio: 1; */
 padding-right: 5%;
 max-width: 40%;
 height: auto;
-
-
-
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 800px;
+    height: auto;
 }
 /* code from: https://www.w3schools.com/howto/howto_css_image_center.asp */
 
@@ -125,12 +133,27 @@ img {
     padding-right: 25%;
 }
 
+#lex {
+    width: 80%;
+}
 
+.inspo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+#hero {
+    width: 90%;
+    max-width: 90%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+/* code from: https://www.w3schools.com/howto/howto_css_image_center.asp */
 
-
-
-
-
+.lexplay, .will, .seso {
+    text-align: center;
+}
 
 
